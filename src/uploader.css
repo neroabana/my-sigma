@@ -1,0 +1,34 @@
+.uploader{
+  display: flex;
+  flex-direction: column; 
+  margin-left: 4em;
+  margin-top: .8em;    
+  width: 21%;
+  min-width: 25em;
+  height: 7em;  
+  border-left: 10px solid grey; 
+  padding-left: 1.5em;
+}
+
+.input_status{
+  color: red;
+  font-weight: bold;
+  font-size: 1.4em;
+  margin-left: 1em;
+}
+
+#submitter{
+  display: flex;
+  justify-content: flext-start;
+  align-items: center;
+  margin-top: .5em;
+  margin-left: 0.1em;
+}
+
+#submit{
+  width: 15em;
+  height: 3em;
+  left: 5em;
+  font-size: 1em;
+  border-radius: 6px; 
+}

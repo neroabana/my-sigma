@@ -1,0 +1,19 @@
+#tree{
+  margin-top: 1em;
+  margin-left: 4.3em;
+  margin-bottom: 2em;
+  border: 1px solid red;
+  height: 35em;
+  width: 25em;
+  min-width: 25em;  
+  background-color: #f6f6f6;
+  border: 2px solid #cccccc;
+  border-radius: 5px;
+  box-shadow: 3px 3px 5 black;
+  
+  overflow: auto;  
+}
+
+#notice{
+  margin-left:1em;
+}

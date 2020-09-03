@@ -1,0 +1,6 @@
+.container{
+  margin:0em;
+  padding:0em;
+  background-image: linear-gradient(45deg, #e5e3e8 25%, #dedde0 25%, #dedde0 50%, #e5e3e8 50%, #e5e3e8 75%, #dedde0 75%, #dedde0 100%);
+  background-size: 8.49px 8.49px;
+}
