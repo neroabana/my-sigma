@@ -1,4 +1,4 @@
-Launch the app in a browser, upload a valid json file and the tree will populate ... than type your jsonpath expression into the box above the tree and the tree will change in accordance to display the resulst of the evaluation engine.
+Launch the app in a browser, upload a valid json file and the tree will populate ... than type your jsonpath expression into the box above the tree and the tree will change in accordance to display the result(s) of the evaluation engine.
 
 This App I built is a react app running on redux and other dependencies
 
