@@ -10,17 +10,17 @@ import './home.css';
 const Home = () => {
   return (
     <>
-      <div id="wrapper">  
-        <div id="banner">
+      <div id = "wrapper">  
+        <div id = "banner">
           <Banner />
         </div>
-        <div id="uploader">
+        <div id = "uploader">
           <Uploader />
         </div>        
-        <div id="path-input">
+        <div id = "path-input">
           <PathInput />
         </div>
-        <div id="tree-view">
+        <div id = "tree-view">
           <TreeView /> 
         </div>
       </div>  
