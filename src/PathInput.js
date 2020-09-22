@@ -33,9 +33,7 @@ const PathInput = ({dispatch, tree}) => {
     } catch {       
       dispatch({type: "RESET_DATA_WITH_BASE"});
     }      
-  }  
-  
-
+  }
   
   return (
     <>
@@ -46,8 +44,6 @@ const PathInput = ({dispatch, tree}) => {
       </form>
     </>
   );  
-  
-  
 };
 
 export default connect(mapStateToProps, null)(PathInput);

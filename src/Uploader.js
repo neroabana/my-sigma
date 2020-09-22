@@ -3,8 +3,7 @@ import {connect} from 'react-redux';
 import './uploader.css'
 
 const Uploader = ({dispatch}) => {  
-  const [valid, setValid] = useState(false);
-  
+  const [valid, setValid] = useState(false);  
   const handleSubmit = (e) => {
     e.preventDefault();    
     let file = e.target.uploadedFile.files[0];
@@ -44,6 +43,5 @@ const Uploader = ({dispatch}) => {
     </>
   );
 };
-
 
 export default connect(null,null)(Uploader);
