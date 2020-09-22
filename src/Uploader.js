@@ -30,7 +30,7 @@ const Uploader = ({dispatch}) => {
     <>
       <div className = "uploader">
         <form onSubmit = {handleSubmit} >
-        <fieldset><legend>Upload a File</legend>
+        <fieldset><legend>Upload a Json File</legend>
           <input type = "file" accept = ".txt, .js" id = "file" name = "uploadedFile" onChange = {handleChange} />
         </fieldset>          
           <div id="submitter">
