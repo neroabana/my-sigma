@@ -33,8 +33,7 @@ const PathInput = ({dispatch, tree}) => {
     } catch {       
       dispatch({type: "RESET_DATA_WITH_BASE"});
     }      
-  }  
-  
+  }    
 
   
   return (
