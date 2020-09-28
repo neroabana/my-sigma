@@ -27,7 +27,7 @@ const Banner = () => {
   return (
     <>
       <div className = "bar">   
-            <div className="logo"><span id="main-logo">11Sigma</span><br /><span id ="logo-byline">Testing JSONPath</span></div>
+            <div className="logo"><span id="main-logo">My-Sigma</span><br /><span id ="logo-byline">Testing JSONPath</span></div>
             <ul className = "bar-menu" style = {{alignSelf: "flex-start"}}>
                 <li>Home</li>
                 <li>About Us</li>
@@ -37,7 +37,7 @@ const Banner = () => {
                 <span id="icon" className="menu-icon"><a href="#.#" id="menu-link">&#9776;</a></span>
                 <div id="drop-down" className="hide-menu">
                     <ul className="drop-menu">
-                        <p>11Sigma Test</p>
+                        <p>My-Sigma Test</p>
                     </ul>
                 </div>
             </div>

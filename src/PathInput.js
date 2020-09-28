@@ -45,8 +45,6 @@ const PathInput = ({dispatch, tree}) => {
       </form>
     </>
   );  
-  
-  
 };
 
 export default connect(mapStateToProps, null)(PathInput);

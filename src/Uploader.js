@@ -3,8 +3,7 @@ import {connect} from 'react-redux';
 import './uploader.css'
 
 const Uploader = ({dispatch}) => {  
-  const [valid, setValid] = useState(false);
-  
+  const [valid, setValid] = useState(false);  
   const handleSubmit = (e) => {
     e.preventDefault();    
     let file = e.target.uploadedFile.files[0];
@@ -31,7 +30,7 @@ const Uploader = ({dispatch}) => {
     <>
       <div className = "uploader">
         <form onSubmit = {handleSubmit} >
-        <fieldset><legend>Upload a File</legend>
+        <fieldset><legend>Upload a Json File</legend>
           <input type = "file" accept = ".txt, .js" id = "file" name = "uploadedFile" onChange = {handleChange} />
         </fieldset>          
           <div id="submitter">
@@ -44,6 +43,5 @@ const Uploader = ({dispatch}) => {
     </>
   );
 };
-
 
 export default connect(null,null)(Uploader);
