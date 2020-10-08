@@ -5,7 +5,6 @@ import {Provider} from 'react-redux';
 import './App.css';
 //import MyTs from './MyTs';
 
-
 let jsonData;
 let base;
  
