@@ -3,7 +3,6 @@ import Home from './Home';
 import {createStore} from 'redux';
 import {Provider} from 'react-redux';
 import './App.css';
-//import MyTs from './MyTs';
 
 let jsonData;
 let base;
@@ -29,8 +28,7 @@ const store = createStore(myReducer);
 const App = () => {
   return (
     <div className = "container">
-      <Provider store = {store} >
-        
+      <Provider store = {store} >        
         <Home />
       </Provider>
     </div>
