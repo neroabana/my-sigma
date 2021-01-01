@@ -13,7 +13,7 @@ const Banner = () => {
         document.getElementById("drop-down").classList.add("hide-menu");    
       }
     }           
-              
+     
     myFunc(x);
     x.addListener(myFunc);
            
