@@ -9,8 +9,7 @@ const mapStateToProps = (state) => {
   };
 };
 
-const PathInput = ({dispatch, tree}) => {  
-    
+const PathInput = ({dispatch, tree}) => {      
   const checkState = (e) => {   
     if (tree){
       document.getElementById("pathInput").removeAttribute("disabled");
