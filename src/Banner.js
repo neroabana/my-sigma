@@ -2,7 +2,6 @@ import React, {useEffect} from 'react';
 import './banner.css';
 
 const Banner = () => {  
-
   useEffect(()=>{
     document.getElementById("menu-link").addEventListener("click", show);            
     function show(){
