@@ -6,6 +6,7 @@ import Banner from './Banner';
 import './home.css';
 
 const Home = () => {
+  
   return (
     <>
       <div id = "wrapper">  
