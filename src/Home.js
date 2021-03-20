@@ -5,8 +5,7 @@ import TreeView from './TreeView';
 import Banner from './Banner';
 import './home.css';
 
-const Home = () => {
-  
+const Home = () => {  
   return (
     <>
       <div id = "wrapper">  
