@@ -3,6 +3,7 @@ import './banner.css';
 
 const Banner = () => {
   useEffect(()=>{
+    
     document.getElementById("menu-link").addEventListener("click", show);            
     function show(){
       document.getElementById("drop-down").classList.toggle("hide-menu");
