@@ -9,6 +9,7 @@ const mapStateToProps = (state) => {
   };
 };
 
+
 const PathInput = ({dispatch, tree}) => {      
   const checkState = (e) => {   
     if (tree){
