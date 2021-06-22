@@ -14,7 +14,7 @@ const PathInput = ({dispatch, tree}) => {
   const checkState = (e) => {   
     if (tree){
       document.getElementById("pathInput").removeAttribute("disabled");
-    } else {
+    }else{
       document.getElementById("pathInput").value = "";      
       document.getElementById("pathInput").setAttribute("disabled", "disabled");
     }
