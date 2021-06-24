@@ -18,8 +18,7 @@ const PathInput = ({dispatch, tree}) => {
       document.getElementById("pathInput").value = "";      
       document.getElementById("pathInput").setAttribute("disabled", "disabled");
     }
-  }
-  
+  }  
   useEffect(()=>{checkState()});  
   
   const fireDispatch = (e) => {    
