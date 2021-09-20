@@ -8,7 +8,6 @@ const mapStateToProps = (state) => {
     tree: state
   };
 };
-
 const PathInput = ({dispatch, tree}) => {      
   const checkState = (e) => {   
     if (tree){
@@ -17,7 +16,8 @@ const PathInput = ({dispatch, tree}) => {
       document.getElementById("pathInput").value = "";      
       document.getElementById("pathInput").setAttribute("disabled", "disabled");
     }
-  }  
+  }
+  
   useEffect(()=>{checkState()});  
   
   const fireDispatch = (e) => {    
