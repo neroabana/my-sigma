@@ -9,14 +9,12 @@
   border-left: 10px solid grey; 
   padding-left: 1.5em;
 }
-
 .input_status{
   color: red;
   font-weight: bold;
   font-size: 1.4em;
   margin-left: 1em;
 }
-
 #submitter{
   display: flex;
   justify-content: flext-start;
@@ -24,7 +22,6 @@
   margin-top: .5em;
   margin-left: 0.1em;
 }
-
 #submit{
   width: 15em;
   height: 3em;
