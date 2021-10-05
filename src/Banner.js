@@ -2,12 +2,13 @@ import React, {useEffect} from 'react';
 import './banner.css';
 
 const Banner = () => {
-  useEffect(()=>{
-    
+  
+  useEffect(()=>{    
     document.getElementById("menu-link").addEventListener("click", show);            
     function show(){
       document.getElementById("drop-down").classList.toggle("hide-menu");
-    }           
+    }   
+    
     const x = window.matchMedia("(max-width: 600px)");            
     function myFunc(x){
       if(x.matches){
@@ -17,7 +18,7 @@ const Banner = () => {
      
     myFunc(x);
     x.addListener(myFunc);
-           
+     
     window.onclick = (e) => {
       if (!e.target.matches("#menu-link")){                    
         document.getElementById("drop-down").classList.add("hide-menu");
