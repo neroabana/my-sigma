@@ -1,7 +1,4 @@
-
 import React from 'react';
-
-
 import Uploader from './Uploader';
 import PathInput from './PathInput';
 import TreeView from './TreeView';
