@@ -9,7 +9,8 @@ const Banner = () => {
       document.getElementById("drop-down").classList.toggle("hide-menu");
     }   
     
-    const x = window.matchMedia("(max-width: 600px)");            
+    const x = window.matchMedia("(max-width: 600px)");   
+    
     function myFunc(x){
       if(x.matches){
         document.getElementById("drop-down").classList.add("hide-menu");    
